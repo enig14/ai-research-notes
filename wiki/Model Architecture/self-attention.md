@@ -34,13 +34,7 @@ Contextualized Representation
 
 ## 6. 핵심 수식
 
-$$
-\mathrm{SelfAttention}(X)
-=
-\mathrm{softmax}\left(
-\frac{QK^T}{\sqrt{d_k}}
-\right)V
-$$
+$$ \mathrm{SelfAttention}(X) = \mathrm{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V $$
 
 여기서 Q, K, V 모두 같은 input sequence \(X\)에서 만들어진다.
 
