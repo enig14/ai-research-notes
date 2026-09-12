@@ -34,14 +34,13 @@ Attention Weight
 
 ## 6. 핵심 수식
 
-\[
-Attention(Q,K,V)
+$$
+\mathrm{Attention}(Q,K,V)
 =
-softmax
-\left(
+\mathrm{softmax}\left(
 \frac{QK^T}{\sqrt{d_k}}
 \right)V
-\]
+$$
 
 ## 7. 예시
 

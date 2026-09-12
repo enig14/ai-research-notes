@@ -30,11 +30,11 @@ updated token representation
 
 ## 6. 핵심 수식
 
-\[
-FFN(x)
+$$
+\mathrm{FFN}(x)
 =
-W_2\sigma(W_1x+b_1)+b_2
-\]
+W_2 \sigma(W_1 x + b_1) + b_2
+$$
 
 ## 7. 예시
 
