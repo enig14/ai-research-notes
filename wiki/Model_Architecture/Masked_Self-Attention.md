@@ -45,7 +45,8 @@ $$\mathrm{MaskedAttention}(Q,K,V)=\mathrm{softmax}\left(\frac{QK^T}{\sqrt{d_k}}+
 
 Causal Mask의 경우
 
-$$M_{ij}=\begin{cases}0 & j\le i \\ -\infty & j>i\end{cases}$$
+$$ M_{ij} = \begin{cases} 0 & j \le i \\
+-\infty & j > i \end{cases} $$
 
 ---
 
